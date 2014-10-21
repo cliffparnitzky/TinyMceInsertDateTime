@@ -1,0 +1,36 @@
+{
+	"name":"cliffparnitzky/tiny-mce-insert-date-time",
+	"description":"Special TinyMCE plugin to add date and time buttons to the editor.",
+	"keywords":["contao","tinymce","tiny editor","tinymce plugin","date time"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/TinyMceInsertDateTime/issues",
+		"source":"https://github.com/cliffparnitzky/TinyMceInsertDateTime"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=2.9.5,<3.3.0",
+		"contao-community-alliance/composer-installer":"*",
+		"cliffparnitzky/tiny-mce-plugin-loader":">=1.0.0,<2.0.x-dev"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"assets/tinymce/plugins/insertdatetime":"assets/tinymce/plugins/insertdatetime",
+				"system/modules/TinyMceInsertDateTime":"system/modules/TinyMceInsertDateTime"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
