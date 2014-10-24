@@ -20,7 +20,7 @@
 		"php":">=5.3",
 		"contao/core":">=3.3.0,<4.0.0-dev",
 		"contao-community-alliance/composer-installer":"*",
-		"cliffparnitzky/tiny-mce-plugin-loader":">=2.0.0"
+		"cliffparnitzky/tiny-mce-plugin-loader":">=2.0.1"
 	},
 	"extra":{
 		"contao":{
