@@ -31,7 +31,7 @@
 $GLOBALS['TINY_PLUGINS'][] = 'insertdatetime';
 
 // Adding buttons
-$GLOBALS['TINY_BUTTONS_1'][] = 'separator,insertdate,inserttime';
+$GLOBALS['TINY_BUTTONS_2'][] = '| insertdatetime';
 
 // Adding HOOK to define more special config
 $GLOBALS['TL_HOOKS']['editTinyMcePluginLoaderConfig'][] = array('TinyMceInsertDateTime', 'editTinyMcePluginLoaderConfig');
