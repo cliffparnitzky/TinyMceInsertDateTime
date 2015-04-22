@@ -41,4 +41,4 @@ Dependency
 Screenshot
 ----------
 
-![Screenshot](https://raw.github.com/cliffparnitzky/TinyMceInsertDateTime/tinymce4/screenshot.jpg)
+![Screenshot](screenshot.jpg)
