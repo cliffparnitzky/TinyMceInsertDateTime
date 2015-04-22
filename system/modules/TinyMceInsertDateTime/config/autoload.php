@@ -3,7 +3,7 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (c) 2005-2014 Leo Feyer
+ * Copyright (c) 2005-2015 Leo Feyer
  *
  * @package TinyMceInsertDateTime
  * @link    https://contao.org
@@ -12,9 +12,19 @@
 
 
 /**
+ * Register the namespaces
+ */
+ClassLoader::addNamespaces(array
+(
+	'TinyMceInsertDateTime',
+));
+
+
+/**
  * Register the classes
  */
 ClassLoader::addClasses(array
 (
-	'TinyMceInsertDateTime' => 'system/modules/TinyMceInsertDateTime/TinyMceInsertDateTime.php',
+	// Classes
+	'TinyMceInsertDateTime\TinyMceInsertDateTime' => 'system/modules/TinyMceInsertDateTime/classes/TinyMceInsertDateTime.php',
 ));
