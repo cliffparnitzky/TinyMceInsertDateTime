@@ -43,3 +43,25 @@ Screenshot
 ----------
 
 ![Screenshot](screenshot.jpg)
+
+
+Additional information
+----------------------
+
+### Special notes
+
+This plugin uses the default date and time format from the system settings.
+
+### Information in the wiki
+
+#### Create a new ...
+
+* [Creating a new plugin](wiki/Creating-a-new-plugin)
+* [Creating a new setup](wiki/Creating-a-new-setup)
+
+#### Installation hints
+* [Install manually](wiki/Install-manually)
+
+#### Bug report hints
+
+* [Report a bug](wiki/Report-a-bug)
