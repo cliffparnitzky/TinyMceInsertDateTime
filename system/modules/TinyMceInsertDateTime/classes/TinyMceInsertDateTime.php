@@ -68,8 +68,8 @@ class TinyMceInsertDateTime {
 	 * Adding config for output behavoir
 	 */
 	public function editTinyMcePluginLoaderConfig ($arrTinyConfig) {
-		$arrTinyConfig["plugin_insertdate_dateFormat"] = '"' . $this->transformFormat($GLOBALS['TL_CONFIG']['dateFormat']) . '",';
-		$arrTinyConfig["plugin_insertdate_timeFormat"] = '"' . $this->transformFormat($GLOBALS['TL_CONFIG']['timeFormat']) . '",';
+		$arrTinyConfig["insertdatetime_dateformat"] = '"' . $this->transformFormat($GLOBALS['TL_CONFIG']['dateFormat']) . '",';
+		$arrTinyConfig["insertdatetime_timeformat"] = '"' . $this->transformFormat($GLOBALS['TL_CONFIG']['timeFormat']) . '",';
 		return $arrTinyConfig;
 	}
 	
