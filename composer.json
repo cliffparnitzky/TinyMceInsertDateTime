@@ -3,7 +3,7 @@
 	"description":"Special TinyMCE plugin to add date and time buttons to the editor.",
 	"keywords":["contao","tinymce","tiny editor","tinymce plugin","date time","tinymce4"],
 	"type":"contao-module",
-	"license":"LGPL-3.0+",
+	"license":"LGPL-3.0-or-later",
 	"authors":[
 		{
 			"name":"Cliff Parnitzky",
